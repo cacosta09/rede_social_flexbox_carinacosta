@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f2f2f2; 
+}
+
+body {
+    width: 100vw;
+}
+main {
+    font-family: 'Raleway', Arial, sans-serif;
+	display: flex;
+    border: 1px solid #ccc;
+    margin: 50px 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.card {
+    display: flex;
+	background-color: white;
+	width: 550px;
+    height: 250px;
+    margin: 40px 20px;
+	align-items: center;
+    border: 1px solid #A9A5A5;
+    justify-content: space-around;
+    
+}
+
+div.imagens {
+    display: flex;
+    align-items: center;
+	flex-direction: column;
+}
+
+div.conteudo {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.conteudo h2 {
+    margin-top: 20px;
+}
+
+img.perfil {
+    width: 150px;
+}
+
+img.redesocial {
+    width: 35px;
+}
+
+div button {
+    text-transform: uppercase;
+	color: white;
+    background-color: #767676;
+    border-style: none;
+    width: 120px;
+    padding: 10px 15px;
+}
